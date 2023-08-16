@@ -1,15 +1,21 @@
+* {
+    box-sizing: border-box;
+  }
+
+
 .header {
-	top:20px;
+	height: 120px;
+	width: 200px;
+	background-color: black;
 }
 
-.main {
-	padding-top:100px;
+.headerground {
+	background-color: #1f2121;
 }
 
-.posLeft {
-	margin-left:-66%;
+.nav {
+	text-align: right;
+	font-size: x-large;
+	font-style: unset;
 }
 
-.posCenter {
-	margin-left:33%;
-}
