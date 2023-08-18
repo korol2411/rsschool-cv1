@@ -7,15 +7,52 @@
 	height: 120px;
 	width: 200px;
 	background-color: black;
+	
 }
 
 .headerground {
 	background-color: #1f2121;
+	height: 120px;
+	
 }
 
+.body  {
+	font-family: 'RobortoSlab', sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+ }
 .nav {
 	text-align: right;
 	font-size: x-large;
 	font-style: unset;
+		
 }
+ 
+ .footer {
+	background-color: black;
+ }
+ 
+ .main {
+	background-color: orange;
+ }
 
+ .ul {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		list-style: none;
+
+ }
+
+ .itemlink {
+	padding: 0 20px;
+	line-height: 50px;
+	transition: .3s;
+ }
+
+ html {
+	scroll-behavior: smooth; 
+  }
+
+  
